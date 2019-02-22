@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonSetter;
 
 import java.io.Serializable;
 
-public class RequestObject implements Serializable {
+public class RequestObject implements Serializable { // deve essere serializable
     private String id;
 
     @JsonGetter

@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @ApplicationPath("/rest")
-public class RestEasyServices extends Application {
+public class RestEasyServices extends Application { // va messa la classe nel web.xml, qua vanno incluse tutte le classi che espongono servizi
 
     private Set<Object> singletons = new HashSet<Object>();
 
